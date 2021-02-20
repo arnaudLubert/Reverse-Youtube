@@ -1,0 +1,40 @@
+/*
+** citadelle-du-web.com
+** arnaud.lubert@epitech.eu
+** 02/19/2021
+*/
+
+body {
+  background-color: #292a2d;
+  font-weight: bold;
+  width: 10em;
+  color: #FFF;
+}
+
+#knob {
+  position: relative;
+  float: right;
+  width: 2.2em;
+  height: 1.4em;
+}
+
+#knob > span:first-child {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  background-color: #FF9C9C;
+  height: 50%;
+  width: 100%;
+  border-radius: 2em;
+}
+
+#knob > span:last-child {
+  position: absolute;
+  top: 0.1em;
+  left: 0;
+  background-color: #FF0000;
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: 2em;
+  transition-duration: 0.2s;
+}
